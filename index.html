@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>The Crystal Game</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
+
+</head>
+
+<body>
+
+    <div id="wrapper">
+
+        <h1>The Crystal Game!</h1>
+    </div>
+
+
+    <!-- Rules of the Game -->
+
+    <div id="rules">
+        <p> You have to match the Target Score at the start of the game. Clicking on the crystals will add points to your total.
+            You win if your score matches the computer, however if you go over you lose the game.</p>
+    </div>
+    </div>
+
+    <!-- /first two rows -->
+
+    <div class="scores-wrapper">
+        <div class="pcScore">
+            <h2>Target Score:</h2>
+            <span class="randomNumber"></span>
+        </div>
+        <div class="userScore">
+            <h2>Your Score:</h2>
+            <span class="points"></span>
+        </div>
+
+    
+
+    <div class="crystals-wrapper">
+
+        <img src="assets/images/bluesquare.jpg" class="blueCrystal crystal" alt="Blue Gem">
+        <img src="assets/images/greensquare.jpg" class="greenCrystal crystal" alt="Green Gem">
+        <img src="assets/images/redsquare.jpg" class="redCrystal crystal" alt="Red Gem">
+        <img src="assets/images/orangesquare.jpg" class="orangeCrystal crystal" alt="Orange Gem">
+    </div>
+
+
+
+
+    <!--added scoreboard -->
+    <div id="scoreboard">
+        <h3>Wins:
+            <span id="win"></span>
+        </h3>
+        <h3>Losses:
+            <span id="loss"></span>
+        </h3>
+    </div>
+    </div>
+
+
+    </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.js" integrity="sha256-fNXJFIlca05BIO2Y5zh1xrShK3ME+/lYZ0j+ChxX2DA="
+        crossorigin="anonymous"></script>
+    <script src="./assets/javascript/game.js"></script>
+</body>
+
+</html>

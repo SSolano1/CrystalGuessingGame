@@ -1,0 +1,44 @@
+body {
+    background-color: rgb(26, 26, 26);
+    color: white;
+}
+
+.crystals-wrapper img{
+    width: 100px;
+    height: 100px;
+}
+
+.crystals-wrapper {
+    text-align: center;
+    margin-top: 50px;
+}
+
+h1 {
+    text-align: center;
+}
+h2 {
+    display: inline;
+}
+
+#rules, .scores-wrapper{
+    width: 725px;
+    margin: 0 auto;
+}
+
+#rules p {
+    text-align: center;
+}
+
+.scores-wrapper {
+    margin-top: 50px;
+}
+
+.pcScore, .userScore {
+    display: inline-block;
+}
+
+.userScore {
+    float: right;
+    margin-right: 50px;
+
+}
